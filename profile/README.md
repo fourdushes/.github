@@ -2,8 +2,6 @@
 
 <img width="1786" height="346" alt="HearO Logo-selection" src="https://github.com/user-attachments/assets/2aca60f7-d656-49cb-ba6a-0ea18e09767f" />
 
-# hearO
-
 ### 들리지 않아도, 진료의 모든 정보가 닿을 수 있도록
 
 실시간 음성인식(STT)과 AI 요약 기술로  
