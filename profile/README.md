@@ -120,6 +120,7 @@
 <p>
   <img src="https://img.shields.io/badge/Java_21-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java 21"/>
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot"/>
+  <img src="https://img.shields.io/badge/REST_API-005571?style=flat-square&logo=fastapi&logoColor=white" alt="REST API"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
 </p>
@@ -191,7 +192,7 @@ GitHub Actions → Amazon ECR → Kubernetes → Argo CD
         <img src="https://github.com/yangjoonhyung.png?size=120" width="96" alt="yangjoonhyung"/><br/>
         <strong>양준형</strong>
       </a><br/>
-      Backend · Architecture
+      Full-stack · Architecture
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/gang-mo">
@@ -212,7 +213,7 @@ GitHub Actions → Amazon ECR → Kubernetes → Argo CD
 
 | 팀원 | GitHub | 담당 업무 |
 |---|---|---|
-| **양준형** | [@yangjoonhyung](https://github.com/yangjoonhyung) | 서비스 기획, ERD 설계, 아키텍처 설계, 백엔드 개발 |
+| **양준형** | [@yangjoonhyung](https://github.com/yangjoonhyung) | 서비스 기획, ERD 설계, 아키텍처 설계, 프론트엔드·백엔드 개발 |
 | **송도훈** | [@Songdoyang](https://github.com/Songdoyang) | AI 상담 내용 정리 및 요약 기능, 텍스트 정제 및 성능 최적화, 실시간 자막(STT) 기능 제작 |
 | **강윤모** | [@gang-mo](https://github.com/gang-mo) | 클라우드 인프라 구축, 모델 서버 연동, 인프라 운영 |
 | **임세훈** | [@Nublas77](https://github.com/Nublas77) | 마케팅, 재무, 프론트엔드 개발 |
