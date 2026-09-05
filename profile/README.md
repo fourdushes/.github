@@ -35,10 +35,10 @@
 
 ## ✨ 핵심 기능
 
-| 01 | 02 | 03 | 04 |
-|---|---|---|---|
-| **진료 연결** | **실시간 기록** | **AI 진료 요약** | **보호자 공유** |
-| 기관 또는 담당자를 검색해 진료를 요청합니다. | 의료진의 음성을 실시간 자막으로 변환하고 대화를 화자별로 기록합니다. | 증상, 의료진 소견, 처방, 질문과 답변을 한눈에 정리합니다. | 승인된 보호자가 완료된 진료 기록을 함께 확인합니다. |
+- **01 진료 연결** — 기관 또는 담당자를 검색해 진료를 요청합니다.
+- **02 실시간 기록** — 의료진의 음성을 실시간 자막으로 변환하고 대화를 화자별로 기록합니다.
+- **03 AI 진료 요약** — 증상, 의료진 소견, 처방, 질문과 답변을 한눈에 정리합니다.
+- **04 보호자 공유** — 승인된 보호자가 완료된 진료 기록을 함께 확인합니다.
 
 ## 🔄 서비스 흐름
 
@@ -53,7 +53,7 @@
 
 청각장애인 사용자가 기관 또는 담당자를 검색해 진료를 요청합니다. 담당자가 요청을 수락하면 양쪽 사용자가 같은 진료방으로 자동 연결됩니다.
 
-<img src="./assets/01-treatment-request.png" width="100%" alt="hearO 기관 검색 및 진료 요청 화면"/>
+![hearO 기관 검색 및 진료 요청 화면](https://raw.githubusercontent.com/fourdushes/.github/main/profile/assets/01-treatment-request.png)
 
 <div align="center">↓</div>
 
@@ -61,16 +61,13 @@
 
 청각장애인과 기관 담당자의 대화를 화자별 메시지로 보여줍니다. 담당자의 발화를 자동으로 감지하고 음성을 실시간 자막으로 변환해 진료 기록에 반영합니다.
 
-<table>
-  <tr>
-    <td align="center" width="50%"><strong>청각장애인 사용자 화면</strong></td>
-    <td align="center" width="50%"><strong>기관 담당자 화면</strong></td>
-  </tr>
-  <tr>
-    <td><img src="./assets/02-live-care-ward.png" width="100%" alt="청각장애인 사용자 실시간 진료 화면"/></td>
-    <td><img src="./assets/03-live-care-provider.png" width="100%" alt="기관 담당자 실시간 진료 화면"/></td>
-  </tr>
-</table>
+#### 청각장애인 사용자 화면
+
+![청각장애인 사용자 실시간 진료 화면](https://raw.githubusercontent.com/fourdushes/.github/main/profile/assets/02-live-care-ward.png)
+
+#### 기관 담당자 화면
+
+![기관 담당자 실시간 진료 화면](https://raw.githubusercontent.com/fourdushes/.github/main/profile/assets/03-live-care-provider.png)
 
 <div align="center">↓</div>
 
@@ -78,7 +75,7 @@
 
 진료가 끝나면 전체 대화를 분석해 주요 증상, 의료진 소견, 처방·생활 관리, 질문과 답변, 어려운 의학 용어를 청각장애인이 다시 확인하기 쉬운 구조화된 기록으로 제공합니다.
 
-<img src="./assets/04-ai-summary.png" width="100%" alt="hearO AI 진료 요약 화면"/>
+![hearO AI 진료 요약 화면](https://raw.githubusercontent.com/fourdushes/.github/main/profile/assets/04-ai-summary.png)
 
 <div align="center">↓</div>
 
@@ -86,16 +83,13 @@
 
 보호 관계가 승인된 사용자는 연결된 피보호자의 진료 목록을 확인하고, 필요한 기록을 선택해 AI 요약을 함께 볼 수 있습니다.
 
-<table>
-  <tr>
-    <td align="center" width="50%"><strong>피보호자 진료 기록</strong></td>
-    <td align="center" width="50%"><strong>진료 요약 상세</strong></td>
-  </tr>
-  <tr>
-    <td><img src="./assets/05-guardian-archive.png" width="100%" alt="보호자용 피보호자 진료 기록 목록"/></td>
-    <td><img src="./assets/06-guardian-summary.png" width="100%" alt="보호자용 진료 요약 상세"/></td>
-  </tr>
-</table>
+#### 피보호자 진료 기록
+
+![보호자용 피보호자 진료 기록 목록](https://raw.githubusercontent.com/fourdushes/.github/main/profile/assets/05-guardian-archive.png)
+
+#### 진료 요약 상세
+
+![보호자용 진료 요약 상세](https://raw.githubusercontent.com/fourdushes/.github/main/profile/assets/06-guardian-summary.png)
 
 <div align="center">↓</div>
 
@@ -103,7 +97,7 @@
 
 사용자는 문의를 등록하고 답변 상태를 확인할 수 있습니다.
 
-<img src="./assets/07-support.png" width="100%" alt="hearO 문의하기 화면"/>
+![hearO 문의하기 화면](https://raw.githubusercontent.com/fourdushes/.github/main/profile/assets/07-support.png)
 
 ## 🛠️ 기술 스택
 
@@ -168,7 +162,7 @@ GitHub Actions → Amazon ECR → Kubernetes → Argo CD
 
 피보호자·보호자 관계, 의료기관 사용자, 진료 요청, 실시간 대화방, 메시지와 진료 아카이브의 관계를 중심으로 설계했습니다.
 
-<img width="2800" height="1900" alt="hearo-erd" src="https://github.com/user-attachments/assets/4ab8df1f-7daf-4537-ac9d-3099f893730f" alt="hearO 데이터베이스 ERD" />
+![hearO 데이터베이스 ERD](https://raw.githubusercontent.com/fourdushes/.github/main/profile/assets/08-erd.png)
 
 ## 📦 Repositories
 
@@ -178,45 +172,17 @@ GitHub Actions → Amazon ECR → Kubernetes → Argo CD
 
 ## 👥 팀원 소개
 
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <a href="https://github.com/Songdoyang">
-        <img src="https://github.com/Songdoyang.png?size=120" width="96" alt="Songdoyang"/><br/>
-        <strong>송도훈</strong>
-      </a><br/>
-      AI · STT
-    </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/yangjoonhyung">
-        <img src="https://github.com/yangjoonhyung.png?size=120" width="96" alt="yangjoonhyung"/><br/>
-        <strong>양준형</strong>
-      </a><br/>
-      Full-stack · Architecture
-    </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/gang-mo">
-        <img src="https://github.com/gang-mo.png?size=120" width="96" alt="gang-mo"/><br/>
-        <strong>강윤모</strong>
-      </a><br/>
-      Cloud Infrastructure
-    </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/Nublas77">
-        <img src="https://github.com/Nublas77.png?size=120" width="96" alt="Nublas77"/><br/>
-        <strong>임세훈</strong>
-      </a><br/>
-      Frontend · Business
-    </td>
-  </tr>
-</table>
+<p>
+  <a href="https://github.com/yangjoonhyung"><img src="https://github.com/yangjoonhyung.png?size=96" width="64" alt="양준형"/></a>
+  <a href="https://github.com/Songdoyang"><img src="https://github.com/Songdoyang.png?size=96" width="64" alt="송도훈"/></a>
+  <a href="https://github.com/gang-mo"><img src="https://github.com/gang-mo.png?size=96" width="64" alt="강윤모"/></a>
+  <a href="https://github.com/Nublas77"><img src="https://github.com/Nublas77.png?size=96" width="64" alt="임세훈"/></a>
+</p>
 
-| 팀원 | GitHub | 담당 업무 |
-|---|---|---|
-| **양준형** | [@yangjoonhyung](https://github.com/yangjoonhyung) | 서비스 기획, ERD 설계, 아키텍처 설계, 프론트엔드·백엔드 개발 |
-| **송도훈** | [@Songdoyang](https://github.com/Songdoyang) | AI 상담 내용 정리 및 요약 기능, 텍스트 정제 및 성능 최적화, 실시간 자막(STT) 기능 제작 |
-| **강윤모** | [@gang-mo](https://github.com/gang-mo) | 클라우드 인프라 구축, 모델 서버 연동, 인프라 운영 |
-| **임세훈** | [@Nublas77](https://github.com/Nublas77) | 마케팅, 재무, 프론트엔드 개발 |
+- [**양준형 · @yangjoonhyung**](https://github.com/yangjoonhyung) — 서비스 기획, ERD 설계, 아키텍처 설계, 프론트엔드·백엔드 개발
+- [**송도훈 · @Songdoyang**](https://github.com/Songdoyang) — AI 상담 내용 정리 및 요약 기능, 텍스트 정제 및 성능 최적화, 실시간 자막(STT) 기능 제작
+- [**강윤모 · @gang-mo**](https://github.com/gang-mo) — 클라우드 인프라 구축, 모델 서버 연동, 인프라 운영
+- [**임세훈 · @Nublas77**](https://github.com/Nublas77) — 마케팅, 재무, 프론트엔드 개발
 
 ## hearO가 만드는 변화
 
