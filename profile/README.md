@@ -215,7 +215,7 @@ GitHub Actions → Amazon ECR → Kubernetes → Argo CD
 |---|---|---|
 | **양준형** | [@yangjoonhyung](https://github.com/yangjoonhyung) | 서비스 기획, ERD 설계, 아키텍처 설계, 프론트엔드·백엔드 개발 |
 | **송도훈** | [@Songdoyang](https://github.com/Songdoyang) | AI 상담 내용 정리 및 요약 기능, 텍스트 정제 및 성능 최적화, 실시간 자막(STT) 기능 제작 |
-| **강윤모** | [@gang-mo](https://github.com/gang-mo) | 클라우드 인프라 구축, 모델 서버 연동, 인프라 운영 |
+| **강윤모** | [@gang-mo](https://github.com/gang-mo) | 클라우드 인프라 구축, 모델 서버 연동, 인프라 운영, 백엔드 문의 기능 제작 |
 | **임세훈** | [@Nublas77](https://github.com/Nublas77) | 마케팅, 재무, 프론트엔드 개발 |
 
 ## hearO가 만드는 변화
