@@ -168,7 +168,7 @@ GitHub Actions → Amazon ECR → Kubernetes → Argo CD
 
 피보호자·보호자 관계, 의료기관 사용자, 진료 요청, 실시간 대화방, 메시지와 진료 아카이브의 관계를 중심으로 설계했습니다.
 
-<img src="./assets/08-erd.png" width="100%" alt="hearO 데이터베이스 ERD"/>
+<img width="2800" height="1900" alt="hearo-erd" src="https://github.com/user-attachments/assets/4ab8df1f-7daf-4537-ac9d-3099f893730f" alt="hearO 데이터베이스 ERD" />
 
 ## 📦 Repositories
 
