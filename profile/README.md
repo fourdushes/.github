@@ -180,19 +180,19 @@ GitHub Actions → Amazon ECR → Kubernetes → Argo CD
 
 <table>
   <tr>
+  <td align="center" width="25%">
+      <a href="https://github.com/yangjoonhyung">
+        <img src="https://github.com/yangjoonhyung.png?size=120" width="96" alt="yangjoonhyung"/><br/>
+        <strong>양준형</strong>
+      </a><br/>
+      Full-stack · Service Planning
+    </td>
     <td align="center" width="25%">
       <a href="https://github.com/Songdoyang">
         <img src="https://github.com/Songdoyang.png?size=120" width="96" alt="Songdoyang"/><br/>
         <strong>송도훈</strong>
       </a><br/>
       AI · STT
-    </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/yangjoonhyung">
-        <img src="https://github.com/yangjoonhyung.png?size=120" width="96" alt="yangjoonhyung"/><br/>
-        <strong>양준형</strong>
-      </a><br/>
-      Full-stack · Service Planning
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/gang-mo">
