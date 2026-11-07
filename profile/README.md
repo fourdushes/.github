@@ -42,10 +42,7 @@
 
 ## 🔄 서비스 흐름
 
-```text
-기관·담당자 검색 → 진료 요청·수락 → 실시간 대화 기록
-        → 진료 종료 → AI 진료 요약 → 환자 확인·보호자 공유
-```
+<img src="./assets/hearo-service-flow.jpg" width="100%" alt="hearO 서비스 흐름도"/>
 
 ## 🖥️ 서비스 화면 및 기능
 
@@ -147,22 +144,7 @@
 
 ### 시스템 아키텍처
 
-```text
-Web · iOS · Android
-Expo · React Native · TypeScript
-             │
-             │ REST API · JWT
-             ▼
-Spring Boot Application Backend
-MySQL · Redis · QueryDSL
-       │                 │
-       │ Speech-to-Text  │ Final Report
-       ▼                 ▼
-Speech Recognition    Flask AI Service
-                      OpenAI API
-
-GitHub Actions → Amazon ECR → Kubernetes → Argo CD
-```
+<img src="./assets/hearo-system-architecture.jpg" width="100%" alt="hearO 시스템 아키텍처"/>
 
 ### ERD
 
